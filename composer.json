@@ -1,0 +1,38 @@
+{
+    "name": "commonapi/application",
+    "description": "CommonApi Application Interfaces",
+    "type": "application",
+    "keywords": ["CommonApi"],
+    "homepage": "http://github.com/CommonApi/Application",
+    "license": "MIT",
+    "version": "1.0.0",
+
+    "authors": [
+        {
+            "name": "Amy Stephen",
+            "email": "AmyStephen@Molajo.org",
+            "homepage": "http://AmyStephen.com"
+        }
+    ],
+
+    "support": {
+        "event": "hello@molajo.org",
+        "irc": "irc://irc.freenode.org/molajo"
+    },
+
+    "require": {
+        "php": ">=5.4"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "CommonApi\\Application\\": "/"
+        }
+    },
+
+    "archive": {
+        "exclude": ["/.dev"]
+    },
+
+    "minimum-stability": "dev"
+}
